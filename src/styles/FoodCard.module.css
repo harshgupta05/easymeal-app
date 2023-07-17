@@ -1,0 +1,53 @@
+.container {
+  width: 22%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 20px 40px; */
+  margin: 20px;
+  cursor: pointer;
+  /* border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); */
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d1411e;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+}
+
+.icon {
+  color: #000000;
+}
+
+.icon2 {
+  color: red;
+}
+
+.desc {
+  width: 100%;
+  text-align: start;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .price,
+  .desc {
+    font-size: 24px;
+  }
+}

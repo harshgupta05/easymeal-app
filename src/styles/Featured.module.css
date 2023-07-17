@@ -1,0 +1,39 @@
+.loginCard {
+  width: 300px;
+  padding: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input {
+  /* width: 100%; */
+  width: 320px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  width: 320px;
+  padding: 10px;
+  border: 1px solid #484F58;
+  background-color: #F6F8FA;
+  color: #484F58;
+  /* border: none; */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #B1BAC4;
+}
